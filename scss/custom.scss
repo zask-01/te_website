@@ -1,0 +1,14 @@
+$enable-rounded: false;
+$primary: #ed1c24;
+$warning: #a80e13;
+$secondary: #0f8237;
+$success: #007d07;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.note {
+    margin: $spacer 0;
+    padding: $spacer;
+    border: 1px solid $warning;
+    border-left: 5px solid $warning;
+}
